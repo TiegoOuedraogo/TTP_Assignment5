@@ -1,0 +1,13 @@
+
+.toolbar {
+  width: 150px;
+  height: 75px;
+  background: #ccc;
+  padding: 5px;
+}
+
+input[type="color"], button {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}

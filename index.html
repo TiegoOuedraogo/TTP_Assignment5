@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 5</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="script.js" async></script>
+  </head>
+  <body>
+    <div class="btns">
+      <div class="bttns">
+        <button class="bttn" onclick="addRow()">+ Add a row</button>
+        <button class="bttn" onclick="addColumn()">+ Add a column</button>
+        <button class="bttn" onclick="removeRow()">- Delete a row</button>
+        <button class="bttn" onclick="removeColumn()">- Delete a</button>
+      </div>
+      <div class="bttns">
+        <button class="bttn" onclick="colorAllUncolor()">
+          Color All Uncolor
+        </button>
+        <button class="bttn" onclick="colorAll()">Color All</button>
+        <button class="bttn" onclick="clearAllColors()">
+          Clear all colors
+        </button>
+      </div>
+      <form>
+        <label for="forColor" class="col">Color: </label>
+        <select class="forColor" name="forColor">
+          <option value="">Choose Color</option>
+          <option value="aliceblue" style="background-color: aliceblue">
+            Aliceblue
+          </option>
+          <option value="antiquewhite" style="background-color: antiquewhite">
+            Antiquewhite
+          </option>
+          <option value="azure" style="background-color: azure">Azure</option>
+          <option value="beige" style="background-color: beige">Beige</option>
+          <option value="bisque" style="background-color: bisque">
+            Bisque
+          </option>
+          <option value="black" style="background-color: black">Black</option>
+          <option
+            value="blanchedalmond"
+            style="background-color: blanchedalmond"
+          >
+            Blanchedalmond
+          </option>
+          <option value="blue" style="background-color: blue">Blue</option>
+          <option value="blueviolet">Blueviolet</option>
+          <option value="brown" style="background-color: brown">Brown</option>
+          <option value="darkcyan" style="background-color: darkcyan">
+            Darkyan
+          </option>
+          <option value="green" style="background-color: green">Green</option>
+          <option value="white" style="background-color: white">White</option>
+          <option value="red" style="background-color: red">Red</option>
+          <option value="pink" style="background-color: pink">Pink</option>
+          <option value="darkred" style="background-color: darkred">
+            Darked
+          </option>
+          <option value="grey" style="background-color: gray">Grey</option>
+          <option value="darkgrey" style="background-color: darkgray">
+            Darkgrey
+          </option>
+          <option value="purlpe" style="background-color: purple">
+            Purlpe
+          </option>
+          <option
+            value="lightslategrey"
+            style="background-color: lightslategrey"
+          >
+            lightslategrey
+          </option>
+          <option value="deepskyblue" style="background-color: deepskyblue">
+            Deepskyblue
+          </option>
+          <option value="aqua" style="background-color: aqua">Aqua</option>
+          <option value="turkoise" style="background-color: turquoise">
+            Turquoise
+          </option>
+          <option value="orange" style="background-color: orange">
+            Orange
+          </option>
+          <option value="gold" style="background-color: gold">Gold</option>
+        </select>
+      </form>
+    </div>
+    <div class="grids">
+      <div class="grid-row" class="col"></div>
+    </div>
+  </body>
+</html>
